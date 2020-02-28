@@ -1,0 +1,37 @@
+PODS:
+  - CTMediator (25)
+  - RxSwift (5.0.1)
+  - SFMediatorKit (0.1.0):
+    - CTMediator
+    - RxSwift (~> 5)
+    - XCoordinator
+    - XCoordinator/RxSwift
+  - XCoordinator (2.0.7):
+    - XCoordinator/Core (= 2.0.7)
+  - XCoordinator/Core (2.0.7)
+  - XCoordinator/RxSwift (2.0.7):
+    - RxSwift (~> 5.0)
+    - XCoordinator/Core
+
+DEPENDENCIES:
+  - SFMediatorKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+    - RxSwift
+    - XCoordinator
+
+EXTERNAL SOURCES:
+  SFMediatorKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SFMediatorKit: 218f3ee9581373ee6acf9b094885ec263ee63e4d
+  XCoordinator: 9ee654fedef1ffede33d5c11677708a555c00542
+
+PODFILE CHECKSUM: 410526d82c21e27b6523009687f46e5039badf92
+
+COCOAPODS: 1.8.3

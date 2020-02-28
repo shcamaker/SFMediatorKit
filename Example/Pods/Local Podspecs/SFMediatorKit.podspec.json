@@ -1,0 +1,38 @@
+{
+  "name": "SFMediatorKit",
+  "version": "0.1.0",
+  "summary": "SFMediatorKit.",
+  "description": "A short description of SFMediatorKit",
+  "homepage": "https://github.com/shcamaker/SFMediatorKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shcamaker": "alex.shen@wesoft.com"
+  },
+  "source": {
+    "git": "https://github.com/shcamaker/SFMediatorKit.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SFMediatorKit/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ],
+    "XCoordinator": [
+
+    ],
+    "XCoordinator/RxSwift": [
+
+    ],
+    "RxSwift": [
+      "~> 5"
+    ]
+  },
+  "swift_version": "5.0"
+}
